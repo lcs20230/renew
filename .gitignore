@@ -1,0 +1,3 @@
+# Project exclude paths
+/front/.next/
+/front/node_modules/

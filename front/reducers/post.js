@@ -6,23 +6,23 @@ export const initialState = {
       nickname: '찬석',
     },
     content: '첫번째 글',
-    Image  : [{
-      src: 'https//book'
+    Images  : [{
+      src: 'https://bookthumb-phinf.pstatic.net/cover/137/995/13799585.jpg?udate=20180726',
     }, {
-      src: 'https//book'
+      src: 'https://gimg.gilbut.co.kr/book/BN001958/rn_view_BN001958.jpg',
     }, {
-      src: 'https//book'
+      src: 'https://gimg.gilbut.co.kr/book/BN001998/rn_view_BN001998.jpg',
     }],
     Comment: [{
       User   : {
-        nickname: 'nero'
+        nickname: 'nero',
       },
-      content: '굿굿'
+      content: '굿굿',
     }, {
       User   : {
         nickname: 'hero',
       },
-      content: '흠흠'
+      content: '흠흠',
     }]
   }],
   imagePaths: [],
@@ -39,7 +39,7 @@ const dummyPost = {
   content : '더미데이터',
   User    : {
     id      : 1,
-    nickname: '찬석'
+    nickname: '찬석',
   },
   Images  : [],
   Comments: [],

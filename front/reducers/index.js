@@ -1,4 +1,3 @@
-import {act} from "react-dom/test-utils";
 import {HYDRATE} from 'next-redux-wrapper';
 import user from './user';
 import post from "./post";

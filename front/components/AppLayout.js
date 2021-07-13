@@ -11,7 +11,6 @@ const SearchInput = styled(Input.Search)`
   vertical-align: middle;
 `;
 
-
 const AppLayout = ({children}) => {
 	const isLoggedIn = useSelector((state) => state.user.isLoggedIn);
 
